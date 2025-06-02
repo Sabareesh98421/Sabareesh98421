@@ -24,15 +24,6 @@
 
 ###
 
-<br clear="both">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/snake.svg">
-  <img src="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/snake.svg" alt="Snake animation" />
-</picture>
-
-###
-
 <div align="center">
   <img src="https://profile-counter.glitch.me/Sabareesh98421/count.svg?"  />
 </div>

@@ -15,13 +15,13 @@
 <p align="left">## 🙏 About Me<br><br>Hi, I'm Padmanabhan.S — a passionate programmer, security enthusiast, and developer on a mission to build efficient and meaningful tools. I explore programming languages, systems architecture, AI/ML, and cloud infrastructure while constantly pushing my limits.<br><br>- 💻 Primarily work with TypeScript, JavaScript, and backend tech like Bun.js<br><br>- 🛡️ Learning cybersecurity deeply, often working on **Kali Linux** for ethical hacking and network security<br><br>- ☁️ Comfortable with AWS services (EC2, S3, VPC, IAM, Auto Scaling, Load Balancers, etc.) <br><br>- ♟️ Designing a chess engine using OOP principles in **TypeScript** -Learning<br><br>- 🤖 Exploring AI/ML for both personal growth <br><br>- 📱 Working on creative ideas<br><br>- 🎓 Currently learning via hands-on projects and Security Analyst course on Coursera, Red Team Hacker Academy<br><br>> **"I truly believe that by Maharishi Ramar — Where the question arises from the same source the answer also comes."**<br><br>Let's connect, collaborate, and build something impactful 🚀</p>
 
 ###
-
+<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/pacman-contribution-graph.svg">
 </picture>
-
+-->
 ###
 
 <div align="center">

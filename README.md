@@ -24,12 +24,13 @@
 
 ###
 
+<br clear="both">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake"  src="https:///raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/github-contribution-grid-snake.svg" 
-  alt="github-snake" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/pacman-contribution-graph.svg">
+  <img src="https://raw.githubusercontent.com/Sabareesh98421/Sabareesh98421/output/snake.svg" alt="Snake animation" />
 </picture>
+
 
 ###
 

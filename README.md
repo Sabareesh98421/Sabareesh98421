@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Padmanabhan.S and I'm a Developer( I guess 😅), from Courtallam.</p>
+<p align="left">Me? :> Just Padmanabhan.S — a dev from Courtallam, coding and chaos guaranteed 😅</p>
 
 ###
 

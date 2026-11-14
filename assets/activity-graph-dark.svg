@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" width="100%" height="260">
+  <defs>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+    <style>
+      .line-anim {
+        stroke-dasharray: 2000;
+        stroke-dashoffset: 2000;
+        animation: drawLine 2.6s ease-out forwards;
+      }
+      .dot-pulse {
+        animation: pulseDot 2.4s infinite ease-in-out;
+      }
+      @keyframes drawLine {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes pulseDot {
+        0%, 100% { r: 3.5px; opacity: 0.85; }
+        50% { r: 5.5px; opacity: 1; }
+      }
+    </style>
+  </defs>
+  <rect width="840" height="260" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="52" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="15" font-weight="700" fill="#58a6ff">Sabareesh98421's Contribution &amp; Commit Velocity Graph</text>
+  <text x="52" y="44" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">588 Total Contributions · 544 Commits · 28 Public Repositories · Peak Streak: 13 Days</text>
+  <line x1="52" y1="56.0" x2="812" y2="56.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="60.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">15</text>
+  <line x1="52" y1="97.0" x2="812" y2="97.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="101.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">11</text>
+  <line x1="52" y1="138.0" x2="812" y2="138.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="142.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">8</text>
+  <line x1="52" y1="179.0" x2="812" y2="179.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="183.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">4</text>
+  <line x1="52" y1="220.0" x2="812" y2="220.0" stroke="#21262d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="224.0" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">0</text>
+  <text x="52.0" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Nov</text>
+  <text x="115.3" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Dec</text>
+  <text x="178.7" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Jan</text>
+  <text x="242.0" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Feb</text>
+  <text x="305.3" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Mar</text>
+  <text x="368.7" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Apr</text>
+  <text x="432.0" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">May</text>
+  <text x="495.3" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Jun</text>
+  <text x="558.7" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Jul</text>
+  <text x="622.0" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Aug</text>
+  <text x="685.3" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Sep</text>
+  <text x="748.7" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Oct</text>
+  <text x="812.0" y="246" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8b949e">Nov</text>
+  <path d="M 52.0,130.6 C 59.3,130.6 59.3,120.7 66.6,120.7 C 73.9,120.7 73.9,71.0 81.2,71.0 C 88.5,71.0 88.5,210.1 95.8,210.1 C 103.2,210.1 103.2,210.1 110.5,210.1 C 117.8,210.1 117.8,190.2 125.1,190.2 C 132.4,190.2 132.4,160.4 139.7,160.4 C 147.0,160.4 147.0,180.3 154.3,180.3 C 161.6,180.3 161.6,220.0 168.9,220.0 C 176.2,220.0 176.2,220.0 183.5,220.0 C 190.8,220.0 190.8,220.0 198.2,220.0 C 205.5,220.0 205.5,200.1 212.8,200.1 C 220.1,200.1 220.1,220.0 227.4,220.0 C 234.7,220.0 234.7,220.0 242.0,220.0 C 249.3,220.0 249.3,220.0 256.6,220.0 C 263.9,220.0 263.9,210.1 271.2,210.1 C 278.5,210.1 278.5,220.0 285.8,220.0 C 293.2,220.0 293.2,220.0 300.5,220.0 C 307.8,220.0 307.8,220.0 315.1,220.0 C 322.4,220.0 322.4,220.0 329.7,220.0 C 337.0,220.0 337.0,220.0 344.3,220.0 C 351.6,220.0 351.6,220.0 358.9,220.0 C 366.2,220.0 366.2,220.0 373.5,220.0 C 380.8,220.0 380.8,220.0 388.2,220.0 C 395.5,220.0 395.5,220.0 402.8,220.0 C 410.1,220.0 410.1,220.0 417.4,220.0 C 424.7,220.0 424.7,220.0 432.0,220.0 C 439.3,220.0 439.3,220.0 446.6,220.0 C 453.9,220.0 453.9,190.2 461.2,190.2 C 468.5,190.2 468.5,220.0 475.8,220.0 C 483.2,220.0 483.2,220.0 490.5,220.0 C 497.8,220.0 497.8,220.0 505.1,220.0 C 512.4,220.0 512.4,220.0 519.7,220.0 C 527.0,220.0 527.0,220.0 534.3,220.0 C 541.6,220.0 541.6,220.0 548.9,220.0 C 556.2,220.0 556.2,220.0 563.5,220.0 C 570.8,220.0 570.8,220.0 578.2,220.0 C 585.5,220.0 585.5,210.1 592.8,210.1 C 600.1,210.1 600.1,190.2 607.4,190.2 C 614.7,190.2 614.7,200.1 622.0,200.1 C 629.3,200.1 629.3,170.3 636.6,170.3 C 643.9,170.3 643.9,180.3 651.2,180.3 C 658.5,180.3 658.5,200.1 665.8,200.1 C 673.2,200.1 673.2,220.0 680.5,220.0 C 687.8,220.0 687.8,220.0 695.1,220.0 C 702.4,220.0 702.4,220.0 709.7,220.0 C 717.0,220.0 717.0,150.5 724.3,150.5 C 731.6,150.5 731.6,210.1 738.9,210.1 C 746.2,210.1 746.2,220.0 753.5,220.0 C 760.8,220.0 760.8,220.0 768.2,220.0 C 775.5,220.0 775.5,220.0 782.8,220.0 C 790.1,220.0 790.1,220.0 797.4,220.0 C 804.7,220.0 804.7,220.0 812.0,220.0 L 812.0,220.0 L 52.0,220.0 Z" fill="url(#areaGrad)"/>
+  <path d="M 52.0,130.6 C 59.3,130.6 59.3,120.7 66.6,120.7 C 73.9,120.7 73.9,71.0 81.2,71.0 C 88.5,71.0 88.5,210.1 95.8,210.1 C 103.2,210.1 103.2,210.1 110.5,210.1 C 117.8,210.1 117.8,190.2 125.1,190.2 C 132.4,190.2 132.4,160.4 139.7,160.4 C 147.0,160.4 147.0,180.3 154.3,180.3 C 161.6,180.3 161.6,220.0 168.9,220.0 C 176.2,220.0 176.2,220.0 183.5,220.0 C 190.8,220.0 190.8,220.0 198.2,220.0 C 205.5,220.0 205.5,200.1 212.8,200.1 C 220.1,200.1 220.1,220.0 227.4,220.0 C 234.7,220.0 234.7,220.0 242.0,220.0 C 249.3,220.0 249.3,220.0 256.6,220.0 C 263.9,220.0 263.9,210.1 271.2,210.1 C 278.5,210.1 278.5,220.0 285.8,220.0 C 293.2,220.0 293.2,220.0 300.5,220.0 C 307.8,220.0 307.8,220.0 315.1,220.0 C 322.4,220.0 322.4,220.0 329.7,220.0 C 337.0,220.0 337.0,220.0 344.3,220.0 C 351.6,220.0 351.6,220.0 358.9,220.0 C 366.2,220.0 366.2,220.0 373.5,220.0 C 380.8,220.0 380.8,220.0 388.2,220.0 C 395.5,220.0 395.5,220.0 402.8,220.0 C 410.1,220.0 410.1,220.0 417.4,220.0 C 424.7,220.0 424.7,220.0 432.0,220.0 C 439.3,220.0 439.3,220.0 446.6,220.0 C 453.9,220.0 453.9,190.2 461.2,190.2 C 468.5,190.2 468.5,220.0 475.8,220.0 C 483.2,220.0 483.2,220.0 490.5,220.0 C 497.8,220.0 497.8,220.0 505.1,220.0 C 512.4,220.0 512.4,220.0 519.7,220.0 C 527.0,220.0 527.0,220.0 534.3,220.0 C 541.6,220.0 541.6,220.0 548.9,220.0 C 556.2,220.0 556.2,220.0 563.5,220.0 C 570.8,220.0 570.8,220.0 578.2,220.0 C 585.5,220.0 585.5,210.1 592.8,210.1 C 600.1,210.1 600.1,190.2 607.4,190.2 C 614.7,190.2 614.7,200.1 622.0,200.1 C 629.3,200.1 629.3,170.3 636.6,170.3 C 643.9,170.3 643.9,180.3 651.2,180.3 C 658.5,180.3 658.5,200.1 665.8,200.1 C 673.2,200.1 673.2,220.0 680.5,220.0 C 687.8,220.0 687.8,220.0 695.1,220.0 C 702.4,220.0 702.4,220.0 709.7,220.0 C 717.0,220.0 717.0,150.5 724.3,150.5 C 731.6,150.5 731.6,210.1 738.9,210.1 C 746.2,210.1 746.2,220.0 753.5,220.0 C 760.8,220.0 760.8,220.0 768.2,220.0 C 775.5,220.0 775.5,220.0 782.8,220.0 C 790.1,220.0 790.1,220.0 797.4,220.0 C 804.7,220.0 804.7,220.0 812.0,220.0" fill="none" stroke="url(#lineGrad)" stroke-width="2.8" class="line-anim"/>
+  <circle cx="52.0" cy="130.6" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 9</title></circle>
+  <circle cx="66.6" cy="120.7" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 10</title></circle>
+  <circle cx="81.2" cy="71.0" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 15</title></circle>
+  <circle cx="95.8" cy="210.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 1</title></circle>
+  <circle cx="110.5" cy="210.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 1</title></circle>
+  <circle cx="125.1" cy="190.2" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 3</title></circle>
+  <circle cx="139.7" cy="160.4" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 6</title></circle>
+  <circle cx="154.3" cy="180.3" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 4</title></circle>
+  <circle cx="212.8" cy="200.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 2</title></circle>
+  <circle cx="271.2" cy="210.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 1</title></circle>
+  <circle cx="461.2" cy="190.2" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 3</title></circle>
+  <circle cx="592.8" cy="210.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 1</title></circle>
+  <circle cx="607.4" cy="190.2" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 3</title></circle>
+  <circle cx="622.0" cy="200.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 2</title></circle>
+  <circle cx="636.6" cy="170.3" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 5</title></circle>
+  <circle cx="651.2" cy="180.3" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 4</title></circle>
+  <circle cx="665.8" cy="200.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 2</title></circle>
+  <circle cx="724.3" cy="150.5" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 7</title></circle>
+  <circle cx="738.9" cy="210.1" r="3.5" fill="#39d353" stroke="#0d1117" stroke-width="1.5" class="dot-pulse"><title>Weekly intensity: 1</title></circle>
+</svg>

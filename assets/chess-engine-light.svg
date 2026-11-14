@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 350" width="100%" height="350">
+  <desc>TypeScript OOP Chess Board &amp; Piece State Visualizer (chessNodeJs)</desc>
+  <rect width="880" height="350" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="32" y="30" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" font-weight="800" fill="#0969da">♟️ TypeScript OOP Chess Board &amp; Piece State Visualizer (chessNodeJs)</text>
+  <text x="32" y="45" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" fill="#57606a">Runtime: Bun + Elysia · OOP Model: AbstractPiece → PieceFactory → ChessBoard (8×8 Matrix)</text>
+  <rect x="32" y="54" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="66" y="54" width="34" height="34" fill="#94a3b8"/>
+  <rect x="100" y="54" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="134" y="54" width="34" height="34" fill="#94a3b8"/>
+  <rect x="168" y="54" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="202" y="54" width="34" height="34" fill="#94a3b8"/>
+  <rect x="236" y="54" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="270" y="54" width="34" height="34" fill="#94a3b8"/>
+  <rect x="32" y="88" width="34" height="34" fill="#94a3b8"/>
+  <rect x="66" y="88" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="100" y="88" width="34" height="34" fill="#94a3b8"/>
+  <rect x="134" y="88" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="168" y="88" width="34" height="34" fill="#94a3b8"/>
+  <rect x="202" y="88" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="236" y="88" width="34" height="34" fill="#94a3b8"/>
+  <rect x="270" y="88" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="32" y="122" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="66" y="122" width="34" height="34" fill="#94a3b8"/>
+  <rect x="100" y="122" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="134" y="122" width="34" height="34" fill="#94a3b8"/>
+  <rect x="168" y="122" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="202" y="122" width="34" height="34" fill="#94a3b8"/>
+  <rect x="236" y="122" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="270" y="122" width="34" height="34" fill="#94a3b8"/>
+  <rect x="32" y="156" width="34" height="34" fill="#94a3b8"/>
+  <rect x="66" y="156" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="100" y="156" width="34" height="34" fill="#94a3b8"/>
+  <rect x="134" y="156" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="168" y="156" width="34" height="34" fill="#94a3b8"/>
+  <rect x="202" y="156" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="236" y="156" width="34" height="34" fill="#94a3b8"/>
+  <rect x="270" y="156" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="32" y="190" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="66" y="190" width="34" height="34" fill="#94a3b8"/>
+  <rect x="100" y="190" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="134" y="190" width="34" height="34" fill="#94a3b8"/>
+  <rect x="168" y="190" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="202" y="190" width="34" height="34" fill="#94a3b8"/>
+  <rect x="236" y="190" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="270" y="190" width="34" height="34" fill="#94a3b8"/>
+  <rect x="32" y="224" width="34" height="34" fill="#94a3b8"/>
+  <rect x="66" y="224" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="100" y="224" width="34" height="34" fill="#94a3b8"/>
+  <rect x="134" y="224" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="168" y="224" width="34" height="34" fill="#94a3b8"/>
+  <rect x="202" y="224" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="236" y="224" width="34" height="34" fill="#94a3b8"/>
+  <rect x="270" y="224" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="32" y="258" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="66" y="258" width="34" height="34" fill="#94a3b8"/>
+  <rect x="100" y="258" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="134" y="258" width="34" height="34" fill="#94a3b8"/>
+  <rect x="168" y="258" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="202" y="258" width="34" height="34" fill="#94a3b8"/>
+  <rect x="236" y="258" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="270" y="258" width="34" height="34" fill="#94a3b8"/>
+  <rect x="32" y="292" width="34" height="34" fill="#94a3b8"/>
+  <rect x="66" y="292" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="100" y="292" width="34" height="34" fill="#94a3b8"/>
+  <rect x="134" y="292" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="168" y="292" width="34" height="34" fill="#94a3b8"/>
+  <rect x="202" y="292" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="236" y="292" width="34" height="34" fill="#94a3b8"/>
+  <rect x="270" y="292" width="34" height="34" fill="#e2e8f0"/>
+  <rect x="32" y="54" width="272" height="272" fill="none" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="202" y="156" width="34" height="34" fill="#fbbf24" opacity="0.38"><animate attributeName="x" dur="12s" repeatCount="indefinite" calcMode="discrete" values="202;168;270;270" keyTimes="0;0.25;0.50;0.75"/><animate attributeName="y" dur="12s" repeatCount="indefinite" calcMode="discrete" values="156;88;54;88" keyTimes="0;0.25;0.50;0.75"/></rect>
+  <text x="219" y="79" text-anchor="middle" font-size="23" fill="#be123c">♜</text>
+  <text x="219" y="113" text-anchor="middle" font-size="23" fill="#be123c">♟</text>
+  <text x="253" y="113" text-anchor="middle" font-size="23" fill="#be123c">♟</text>
+  <text x="117" y="215" text-anchor="middle" font-size="23" fill="#0f172a">♗</text>
+  <text x="219" y="317" text-anchor="middle" font-size="23" fill="#0f172a">♖</text>
+  <text x="253" y="317" text-anchor="middle" font-size="23" fill="#0f172a">♔</text>
+  <text x="219" y="283" text-anchor="middle" font-size="23" fill="#0f172a">♙</text>
+  <text x="253" y="283" text-anchor="middle" font-size="23" fill="#0f172a">♙</text>
+  <text x="287" y="113" text-anchor="middle" font-size="23" fill="#be123c">♟<animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="1;1;1;0;1" keyTimes="0;0.25;0.50;0.75;1"/></text>
+  <text x="219" y="181" text-anchor="middle" font-size="24" fill="#0f172a">♘<animate attributeName="x" dur="12s" repeatCount="indefinite" values="219;185;185;185;219" keyTimes="0;0.22;0.50;0.92;1"/><animate attributeName="y" dur="12s" repeatCount="indefinite" values="181;113;113;113;181" keyTimes="0;0.22;0.50;0.92;1"/></text>
+  <text x="253" y="79" text-anchor="middle" font-size="24" fill="#be123c">♚<animate attributeName="x" dur="12s" repeatCount="indefinite" values="253;253;287;287;253" keyTimes="0;0.45;0.52;0.92;1"/></text>
+  <text x="287" y="147" text-anchor="middle" font-size="24" fill="#0f172a">♕<animate attributeName="y" dur="12s" repeatCount="indefinite" values="147;147;147;113;147" keyTimes="0;0.50;0.70;0.77;1"/></text>
+  <rect x="328" y="54" width="524" height="272" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="348" y="82" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" fill="#7c3aed">♟️ OOP STATE TRANSITION &amp; MOVE HISTORY (_previousMoves)</text>
+  <line x1="348" y1="92" x2="832" y2="92" stroke="#d0d7de" stroke-width="1"/>
+  <text x="348" y="116" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#57606a">Step 1 │ Knight.move("E7") │ <tspan font-weight="700">White Knight: F5 → E7+ (Royal Check)</tspan></text>
+  <text x="348" y="140" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#0969da">Step 2 │ King.move("H8")   │ <tspan font-weight="700">Black King:   G8 → H8  (Forced Evasion)</tspan></text>
+  <text x="348" y="164" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" fill="#16a34a">Step 3 │ Queen.move("H7")  │ <tspan font-weight="700">White Queen:  H6 → H7# (Checkmate State)</tspan></text>
+  <rect x="348" y="189" width="160" height="62" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="358" y="213" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#0f172a">AbstractPiece &amp; IPieces</text>
+  <text x="358" y="233" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9.5" fill="#57606a">id, currentPosition, _previousMoves[]</text>
+  <rect x="518" y="189" width="160" height="62" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="528" y="213" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#0f172a">PieceFactory &amp; Classes</text>
+  <text x="528" y="233" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9.5" fill="#57606a">Pawn · Rook · Knight · Bishop · Queen · King</text>
+  <rect x="688" y="189" width="160" height="62" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="698" y="213" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#0f172a">ChessBoard (A1–H8)</text>
+  <text x="698" y="233" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9.5" fill="#57606a">2D _board[][] matrix + vector validation</text>
+  <rect x="348" y="266" width="484" height="44" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <text x="360" y="293" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700" fill="#16a34a">✓ TACTICAL SEQUENCE: 1. Ne7+ Kh8 2. Qxh7# · OOP Board &amp; Piece Modeling in TypeScript</text>
+</svg>

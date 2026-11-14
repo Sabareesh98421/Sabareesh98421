@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969da"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+    <style>
+      .cursor { animation: blink 1.1s step-end infinite; }
+      .float-badge { animation: floatY 3.5s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes floatY { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
+    </style>
+  </defs>
+  <rect width="900" height="220" rx="12" fill="url(#heroBg)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="0" y="0" width="900" height="4" rx="2" fill="url(#accentBar)"/>
+
+  <!-- Terminal Header Dots -->
+  <circle cx="28" cy="24" r="5.5" fill="#ff5f56"/>
+  <circle cx="46" cy="24" r="5.5" fill="#ffbd2e"/>
+  <circle cx="64" cy="24" r="5.5" fill="#27c93f"/>
+  <text x="84" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" fill="#475569">sabareesh@courtallam:~/engineering-profile — zsh</text>
+
+  <!-- Main Identity -->
+  <text x="36" y="74" font-family="Segoe UI, Ubuntu, sans-serif" font-size="30" font-weight="800" fill="#0f172a">Padmanabhan S <tspan font-size="18" font-weight="500" fill="#0969da">(@Sabareesh98421)</tspan></text>
+  <text x="36" y="104" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" font-weight="600" fill="#7c3aed">Full-Stack TypeScript Engineer (Angular · Next.js · Bun/Elysia) &amp; Security-First QA</text>
+  <text x="36" y="132" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#16a34a">$ whoami --focus <tspan fill="#475569">→ Building high-throughput APIs, interactive web apps &amp; security-hardened systems</tspan><tspan class="cursor" fill="#16a34a">▋</tspan></text>
+
+  <!-- Domain Pills -->
+  <g class="float-badge">
+    <rect x="36" y="156" width="185" height="30" rx="15" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="128" y="175" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600" fill="#0969da">⚡ Bun · Elysia · Node.js</text>
+
+    <rect x="234" y="156" width="195" height="30" rx="15" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="331" y="175" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600" fill="#7c3aed">🅰️ Angular · Next.js · TS</text>
+
+    <rect x="442" y="156" width="205" height="30" rx="15" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="544" y="175" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600" fill="#16a34a">🛡️ AppSec · CICSA · QA</text>
+
+    <rect x="660" y="156" width="200" height="30" rx="15" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="760" y="175" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600" fill="#0f172a">☁️ AWS · Docker · Linux</text>
+  </g>
+</svg>
